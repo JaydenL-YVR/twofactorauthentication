@@ -11,9 +11,9 @@ npm install axios (securitybulletin)
 
 npm install cors (backend)
 
-git checkout main
+git checkout master
 
-git pull origin main
+git pull origin master
 
 # secure front-end using 2fa
 npm install speakeasy qrcode
