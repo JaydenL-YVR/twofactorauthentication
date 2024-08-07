@@ -2,6 +2,8 @@
 
 open vs code
 
+open new terminal within vs code 
+
 mkdir backend
 
 cd backend
@@ -20,7 +22,8 @@ git pull origin master
 
 npm install speakeasy qrcode
 
-# To start backend
+# To start backend (mandatory for it to work)
+open new terminal
 cd backend
 node server.js
 
