@@ -34,12 +34,19 @@ npm start
 
 # Use Case
 Register new account
+
 Login to that account
+
 Input user id "1"
+
 Generate QR code
+
 Login to O-Auth (Authenticator) on mobile
+
 Add new account, scan QR code.
+
 Input the 6 digit code from the O-Auth into the input token on the 2FA website
+
 Login to website to be taken to that new page
 
 # Learnings
