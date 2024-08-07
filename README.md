@@ -1,8 +1,11 @@
 # Setup
 
 open vs code
+
 mkdir backend
+
 cd backend
+
 npm init -y
 
 npm install express sqlite3 bcryptjs jsonwebtoken body-parser dotenv
