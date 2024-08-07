@@ -18,7 +18,6 @@ git checkout master
 
 git pull origin master
 
-# Secure front-end using 2fa
 npm install speakeasy qrcode
 
 # To start backend
