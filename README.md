@@ -1,8 +1,29 @@
-# Setup
+# Setup with cloning
+cd backend
+
+npm install express sqlite3 bcryptjs jsonwebtoken body-parser dotenv
+npm install axios
+npm install cors
+npm install react-scripts
+npm install speakeasy qrcode
+
+# Start backend
+open new terminal
+cd backend
+node server.js
+
+# To start frontend 
+open a new terminal
+cd securitybulletin
+npm start
+
+# Setup (without cloning)
 
 open vs code
 
 open new terminal within vs code 
+
+npm install react-scripts
 
 mkdir backend
 
@@ -16,11 +37,12 @@ npm install axios (securitybulletin)
 
 npm install cors (backend)
 
+npm install speakeasy qrcode
+
 git checkout master
 
 git pull origin master
 
-npm install speakeasy qrcode
 
 # To start backend (mandatory for it to work)
 open new terminal
@@ -51,3 +73,4 @@ Login to website to be taken to that new page
 
 # Learnings
 Understand the procedure of 2FA verification
+
