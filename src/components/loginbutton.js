@@ -15,7 +15,7 @@ const LoginButton = ({ isVerified, onLogin }) => {
             onClick={handleClick}
             className={`w-full p-2 rounded ${isVerified ? 'bg-green-500 hover:bg-green-600' : 'bg-gray-400 cursor-not-allowed'}`}
         >
-            Login to 23andMe
+            Log In
         </button>
     );
 };
